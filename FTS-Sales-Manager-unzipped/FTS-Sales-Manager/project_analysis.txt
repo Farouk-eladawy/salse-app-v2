@@ -1,0 +1,120 @@
+============================================================
+📊 تقرير تحليل المشروع
+============================================================
+
+📈 الإحصائيات العامة:
+  • عدد الملفات: 54
+  • إجمالي الأسطر: 25,382
+  • إجمالي الحجم: 915,166 حرف
+
+🔗 أكثر الوحدات استدعاءً:
+  • core.logger: 22 استدعاء
+  • core.language_manager: 11 استدعاء
+  • core.config_manager: 5 استدعاء
+  • core.airtable_manager: 4 استدعاء
+  • core.theme_manager: 4 استدعاء
+  • utils.window_manager: 4 استدعاء
+  • core.db_manager: 3 استدعاء
+  • core.theme_color_manager: 3 استدعاء
+  • core.user_manager: 2 استدعاء
+  • core.security.encryption: 2 استدعاء
+
+📤 الوحدات التي تستدعي أكثر وحدات:
+  • views.main_window: يستدعي 16 وحدة
+  • controllers.app_controller: يستدعي 12 وحدة
+  • views.login_window: يستدعي 11 وحدة
+  • app: يستدعي 7 وحدة
+  • views.add_edit_window: يستدعي 5 وحدة
+  • views.components.dropdown_dialogs: يستدعي 4 وحدة
+  • core.user_manager: يستدعي 3 وحدة
+  • views.components.header: يستدعي 3 وحدة
+  • core.language_manager: يستدعي 2 وحدة
+  • core.session_manager: يستدعي 2 وحدة
+
+✅ لا توجد اعتماديات دائرية
+
+🌳 شجرة اعتماديات الملف الرئيسي (app):
+├── app
+  ├── controllers.app_controller
+    ├── controllers.app_controller
+      ├── core.airtable_dropdown_manager
+        ├── core.airtable_dropdown_manager
+          └── core.airtable_manager
+      ├── core.airtable_manager
+      ├── core.config_manager
+        ├── core.config_manager
+          └── core.logger
+      ├── core.db_manager
+        ├── core.db_manager
+          └── core.logger
+      ├── core.language_manager
+        ├── core.language_manager
+          ├── core.config_manager
+          └── core.logger
+      ├── core.logger
+      ├── core.theme_manager
+        ├── core.theme_manager
+          ├── core.config_manager
+          └── core.logger
+      ├── core.user_manager
+        ├── core.user_manager
+          ├── core.airtable_manager
+          ├── core.db_manager
+          └── core.logger
+      ├── utils.threading_utils
+        ├── utils.threading_utils
+          └── core.logger
+      ├── views.add_edit_window
+        ├── views.add_edit_window
+          ├── core.language_manager
+          ├── core.logger
+          ├── core.theme_color_manager
+          ├── utils.window_manager
+          └── views.components.combobox
+      ├── views.login_window
+        ├── views.login_window
+          ├── config.login_config
+          ├── config.modern_color_palettes
+          ├── core.constants
+          ├── core.language_manager
+          ├── core.logger
+          ├── core.security.encryption
+          ├── core.security.rate_limiter
+          ├── core.theme_color_manager
+          ├── core.theme_manager
+          ├── utils.validators
+          └── utils.window_manager
+      └── views.main_window
+        ├── views.main_window
+          ├── core.event_system
+          ├── core.language_manager
+          ├── core.logger
+          ├── core.permissions
+          ├── core.state_manager
+          ├── core.theme_color_manager
+          ├── core.theme_manager
+          ├── utils.async_operations
+          ├── utils.image_utils
+          ├── utils.window_manager
+          ├── views.components.data_table
+          ├── views.components.header
+          ├── views.components.menu_bar
+          ├── views.components.sidebar
+          ├── views.components.status_bar
+          └── views.components.toolbar
+  ├── core.airtable_manager
+  ├── core.config_manager
+    ├── core.config_manager
+      └── core.logger
+  ├── core.db_manager
+    ├── core.db_manager
+      └── core.logger
+  ├── core.logger
+  ├── core.user_manager
+    ├── core.user_manager
+      ├── core.airtable_manager
+      ├── core.db_manager
+        ├── core.db_manager
+          └── core.logger
+      └── core.logger
+  └── views.splash_screen

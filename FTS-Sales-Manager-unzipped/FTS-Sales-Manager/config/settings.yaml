@@ -1,0 +1,51 @@
+language: en
+appearance_mode: light
+color_theme: blue
+view_name: Sales App
+window_size:
+  width: 1024
+  height: 768
+views_settings:
+  allow_view_switching: true
+  show_current_view_in_status: true
+  default_views:
+    admin: All Records
+    manager: Manager View
+    editor: Team View
+    viewer: My Bookings
+  role_views:
+    admin:
+    - All Records
+    - Today's Bookings
+    - This Week
+    - This Month
+    manager:
+    - Manager View
+    - Team View
+    - Today's Bookings
+    - This Week
+    editor:
+    - Team View
+    - My Bookings
+    - Today's Bookings
+    viewer:
+    - My Bookings
+cache_settings:
+  enable_cache: true
+  default_cache_duration: 15
+  view_cache_duration:
+    All Records: 30
+    Today's Bookings: 5
+    This Week: 15
+    This Month: 60
+performance_settings:
+  records_per_page: 100
+  enable_lazy_loading: true
+  show_loading_indicator: true
+  background_loading: true
+airtable_users_table: users
+airtable_booking_table: List V2
+main_window_state:
+  fullscreen: true
+  geometry: null
+  state: zoomed

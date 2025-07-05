@@ -1,0 +1,1630 @@
+{
+  "files": {
+    "app": {
+      "path": "app.py",
+      "size": 6242,
+      "lines": 201,
+      "local_imports": [
+        "core.user_manager",
+        "core.config_manager",
+        "core.airtable_manager",
+        "views.splash_screen",
+        "core.logger",
+        "controllers.app_controller",
+        "core.db_manager"
+      ],
+      "external_imports": [
+        "os",
+        "warnings",
+        "traceback",
+        "tkinter",
+        "sys",
+        "faulthandler"
+      ]
+    },
+    "project_analyzer": {
+      "path": "project_analyzer.py",
+      "size": 15466,
+      "lines": 401,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "ast",
+        "re",
+        "pathlib",
+        "typing",
+        "json",
+        "collections",
+        "argparse"
+      ]
+    },
+    "config.login_config": {
+      "path": "config\\login_config.py",
+      "size": 6796,
+      "lines": 217,
+      "local_imports": [],
+      "external_imports": []
+    },
+    "config.modern_color_palettes": {
+      "path": "config\\modern_color_palettes.py",
+      "size": 5867,
+      "lines": 202,
+      "local_imports": [],
+      "external_imports": []
+    },
+    "controllers.app_controller": {
+      "path": "controllers\\app_controller.py",
+      "size": 29214,
+      "lines": 787,
+      "local_imports": [
+        "utils.threading_utils",
+        "core.user_manager",
+        "views.login_window",
+        "views.main_window",
+        "core.config_manager",
+        "core.airtable_manager",
+        "views.add_edit_window",
+        "core.theme_manager",
+        "core.logger",
+        "core.language_manager",
+        "core.db_manager",
+        "core.airtable_dropdown_manager"
+      ],
+      "external_imports": [
+        "typing",
+        "threading",
+        "datetime",
+        "json",
+        "tkinter",
+        "customtkinter",
+        "time"
+      ]
+    },
+    "core.airtable_dropdown_manager": {
+      "path": "core\\airtable_dropdown_manager.py",
+      "size": 24117,
+      "lines": 602,
+      "local_imports": [
+        "core.airtable_manager"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "threading",
+        "datetime",
+        "json",
+        "logging",
+        "time",
+        "concurrent.futures"
+      ]
+    },
+    "core.airtable_manager": {
+      "path": "core\\airtable_manager.py",
+      "size": 28862,
+      "lines": 774,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "re",
+        "typing",
+        "threading",
+        "datetime",
+        "json",
+        "requests",
+        "logging",
+        "time",
+        "concurrent.futures"
+      ]
+    },
+    "core.app_state_manager": {
+      "path": "core\\app_state_manager.py",
+      "size": 14840,
+      "lines": 403,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "typing",
+        "threading",
+        "datetime",
+        "enum",
+        "time"
+      ]
+    },
+    "core.config_manager": {
+      "path": "core\\config_manager.py",
+      "size": 18851,
+      "lines": 499,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "os",
+        "dotenv",
+        "typing",
+        "yaml"
+      ]
+    },
+    "core.constants": {
+      "path": "core\\constants.py",
+      "size": 8556,
+      "lines": 295,
+      "local_imports": [],
+      "external_imports": [
+        "typing",
+        "enum"
+      ]
+    },
+    "core.db_manager": {
+      "path": "core\\db_manager.py",
+      "size": 10852,
+      "lines": 261,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "sqlite3",
+        "typing",
+        "threading"
+      ]
+    },
+    "core.event_system": {
+      "path": "core\\event_system.py",
+      "size": 1015,
+      "lines": 31,
+      "local_imports": [],
+      "external_imports": [
+        "queue",
+        "typing",
+        "threading",
+        "datetime"
+      ]
+    },
+    "core.language_manager": {
+      "path": "core\\language_manager.py",
+      "size": 6614,
+      "lines": 166,
+      "local_imports": [
+        "core.logger",
+        "core.config_manager"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "yaml"
+      ]
+    },
+    "core.logger": {
+      "path": "core\\logger.py",
+      "size": 2118,
+      "lines": 62,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "logging",
+        "logging.handlers"
+      ]
+    },
+    "core.permissions": {
+      "path": "core\\permissions.py",
+      "size": 5411,
+      "lines": 176,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "typing",
+        "tkinter",
+        "functools"
+      ]
+    },
+    "core.session_manager": {
+      "path": "core\\session_manager.py",
+      "size": 14093,
+      "lines": 411,
+      "local_imports": [
+        "core.security.encryption",
+        "core.logger"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "threading",
+        "datetime",
+        "secrets",
+        "json",
+        "time"
+      ]
+    },
+    "core.state_manager": {
+      "path": "core\\state_manager.py",
+      "size": 2557,
+      "lines": 75,
+      "local_imports": [],
+      "external_imports": [
+        "dataclasses",
+        "typing",
+        "threading",
+        "datetime"
+      ]
+    },
+    "core.theme_color_manager": {
+      "path": "core\\theme_color_manager.py",
+      "size": 12242,
+      "lines": 320,
+      "local_imports": [
+        "config.modern_color_palettes",
+        "core.logger"
+      ],
+      "external_imports": [
+        "typing",
+        "customtkinter"
+      ]
+    },
+    "core.theme_manager": {
+      "path": "core\\theme_manager.py",
+      "size": 25669,
+      "lines": 562,
+      "local_imports": [
+        "core.logger",
+        "core.config_manager"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "json",
+        "tkinter",
+        "customtkinter"
+      ]
+    },
+    "core.user_manager": {
+      "path": "core\\user_manager.py",
+      "size": 14899,
+      "lines": 387,
+      "local_imports": [
+        "core.airtable_manager",
+        "core.db_manager",
+        "core.logger"
+      ],
+      "external_imports": [
+        "hmac",
+        "base64",
+        "typing",
+        "secrets",
+        "datetime",
+        "hashlib"
+      ]
+    },
+    "utils.async_operations": {
+      "path": "utils\\async_operations.py",
+      "size": 736,
+      "lines": 21,
+      "local_imports": [],
+      "external_imports": [
+        "threading",
+        "concurrent.futures"
+      ]
+    },
+    "utils.error_handler": {
+      "path": "utils\\error_handler.py",
+      "size": 1884,
+      "lines": 49,
+      "local_imports": [
+        "utils.window_manager"
+      ],
+      "external_imports": [
+        "typing",
+        "logging",
+        "traceback",
+        "tkinter",
+        "functools"
+      ]
+    },
+    "utils.image_utils": {
+      "path": "utils\\image_utils.py",
+      "size": 8538,
+      "lines": 297,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "PIL",
+        "typing",
+        "logging",
+        "tkinter",
+        "customtkinter",
+        "sys"
+      ]
+    },
+    "utils.login_visual_effects": {
+      "path": "utils\\login_visual_effects.py",
+      "size": 11479,
+      "lines": 356,
+      "local_imports": [],
+      "external_imports": [
+        "typing",
+        "threading",
+        "math",
+        "customtkinter",
+        "time"
+      ]
+    },
+    "utils.threading_utils": {
+      "path": "utils\\threading_utils.py",
+      "size": 5475,
+      "lines": 178,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "tkinter",
+        "queue",
+        "typing",
+        "threading"
+      ]
+    },
+    "utils.validators": {
+      "path": "utils\\validators.py",
+      "size": 12546,
+      "lines": 405,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "re",
+        "typing",
+        "datetime",
+        "string"
+      ]
+    },
+    "utils.window_manager": {
+      "path": "utils\\window_manager.py",
+      "size": 48019,
+      "lines": 1208,
+      "local_imports": [],
+      "external_imports": [
+        "ctypes",
+        "platform",
+        "weakref",
+        "typing",
+        "threading",
+        "tkinter",
+        "customtkinter",
+        "time"
+      ]
+    },
+    "views.add_edit_window": {
+      "path": "views\\add_edit_window.py",
+      "size": 35739,
+      "lines": 861,
+      "local_imports": [
+        "core.theme_color_manager",
+        "core.logger",
+        "core.language_manager",
+        "views.components.combobox",
+        "utils.window_manager"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "threading",
+        "datetime",
+        "json",
+        "tkcalendar",
+        "tkinter",
+        "customtkinter",
+        "time"
+      ]
+    },
+    "views.login_window": {
+      "path": "views\\login_window.py",
+      "size": 91114,
+      "lines": 2369,
+      "local_imports": [
+        "core.constants",
+        "core.theme_color_manager",
+        "core.security.encryption",
+        "utils.validators",
+        "core.security.rate_limiter",
+        "config.login_config",
+        "core.logger",
+        "core.theme_manager",
+        "core.language_manager",
+        "config.modern_color_palettes",
+        "utils.window_manager"
+      ],
+      "external_imports": [
+        "os",
+        "ctypes",
+        "platform",
+        "re",
+        "typing",
+        "threading",
+        "secrets",
+        "json",
+        "datetime",
+        "string",
+        "tkinter",
+        "customtkinter",
+        "time",
+        "hashlib",
+        "queue",
+        "functools"
+      ]
+    },
+    "views.main_window": {
+      "path": "views\\main_window.py",
+      "size": 55631,
+      "lines": 1310,
+      "local_imports": [
+        "views.components.data_table",
+        "core.theme_color_manager",
+        "views.components.header",
+        "utils.image_utils",
+        "core.state_manager",
+        "core.event_system",
+        "core.permissions",
+        "views.components.status_bar",
+        "core.logger",
+        "core.theme_manager",
+        "core.language_manager",
+        "views.components.toolbar",
+        "views.components.menu_bar",
+        "views.components.sidebar",
+        "utils.async_operations",
+        "utils.window_manager"
+      ],
+      "external_imports": [
+        "os",
+        "platform",
+        "typing",
+        "threading",
+        "datetime",
+        "weakref",
+        "tkinter",
+        "customtkinter",
+        "functools"
+      ]
+    },
+    "views.splash_screen": {
+      "path": "views\\splash_screen.py",
+      "size": 11100,
+      "lines": 363,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "PIL",
+        "typing",
+        "threading",
+        "tkinter",
+        "customtkinter",
+        "time"
+      ]
+    },
+    "core.security.encryption": {
+      "path": "core\\security\\encryption.py",
+      "size": 6042,
+      "lines": 210,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "os",
+        "base64",
+        "typing",
+        "secrets",
+        "json",
+        "hashlib",
+        "cryptography.fernet"
+      ]
+    },
+    "core.security.rate_limiter": {
+      "path": "core\\security\\rate_limiter.py",
+      "size": 10258,
+      "lines": 311,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "threading",
+        "datetime",
+        "json",
+        "collections",
+        "time"
+      ]
+    },
+    "core.security.two_factor_auth": {
+      "path": "core\\security\\two_factor_auth.py",
+      "size": 11664,
+      "lines": 403,
+      "local_imports": [
+        "core.logger"
+      ],
+      "external_imports": [
+        "io",
+        "pyotp",
+        "base64",
+        "typing",
+        "secrets",
+        "datetime",
+        "json",
+        "qrcode",
+        "time",
+        "hashlib"
+      ]
+    },
+    "venv.Lib.site-packages.pip.__main__": {
+      "path": "venv\\Lib\\site-packages\\pip\\__main__.py",
+      "size": 854,
+      "lines": 24,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "pip._internal.cli.main",
+        "sys"
+      ]
+    },
+    "venv.Lib.site-packages.pip._internal.main": {
+      "path": "venv\\Lib\\site-packages\\pip\\_internal\\main.py",
+      "size": 340,
+      "lines": 12,
+      "local_imports": [],
+      "external_imports": [
+        "typing",
+        "pip._internal.utils.entrypoints"
+      ]
+    },
+    "venv.Lib.site-packages.pip._internal.cli.main": {
+      "path": "venv\\Lib\\site-packages\\pip\\_internal\\cli\\main.py",
+      "size": 2817,
+      "lines": 80,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "pip._internal.cli.autocompletion",
+        "pip._internal.cli.main_parser",
+        "pip._internal.exceptions",
+        "typing",
+        "pip._internal.utils",
+        "logging",
+        "warnings",
+        "sys",
+        "locale",
+        "pip._internal.commands"
+      ]
+    },
+    "venv.Lib.site-packages.pip._vendor.certifi.__main__": {
+      "path": "venv\\Lib\\site-packages\\pip\\_vendor\\certifi\\__main__.py",
+      "size": 255,
+      "lines": 12,
+      "local_imports": [],
+      "external_imports": [
+        "pip._vendor.certifi",
+        "argparse"
+      ]
+    },
+    "venv.Lib.site-packages.pip._vendor.distro.distro": {
+      "path": "venv\\Lib\\site-packages\\pip\\_vendor\\distro\\distro.py",
+      "size": 49430,
+      "lines": 1403,
+      "local_imports": [],
+      "external_imports": [
+        "os",
+        "re",
+        "typing",
+        "json",
+        "logging",
+        "subprocess",
+        "warnings",
+        "argparse",
+        "sys",
+        "shlex",
+        "functools"
+      ]
+    },
+    "venv.Lib.site-packages.pip._vendor.distro.__main__": {
+      "path": "venv\\Lib\\site-packages\\pip\\_vendor\\distro\\__main__.py",
+      "size": 64,
+      "lines": 4,
+      "local_imports": [
+        "venv.Lib.site-packages.pip._vendor.distro.distro"
+      ],
+      "external_imports": []
+    },
+    "venv.Lib.site-packages.pip._vendor.platformdirs.__main__": {
+      "path": "venv\\Lib\\site-packages\\pip\\_vendor\\platformdirs\\__main__.py",
+      "size": 1505,
+      "lines": 55,
+      "local_imports": [],
+      "external_imports": [
+        "__future__",
+        "pip._vendor.platformdirs"
+      ]
+    },
+    "venv.Lib.site-packages.pip._vendor.pygments.__main__": {
+      "path": "venv\\Lib\\site-packages\\pip\\_vendor\\pygments\\__main__.py",
+      "size": 353,
+      "lines": 17,
+      "local_imports": [],
+      "external_imports": [
+        "pip._vendor.pygments.cmdline",
+        "sys"
+      ]
+    },
+    "venv.Lib.site-packages.pip._vendor.rich.__main__": {
+      "path": "venv\\Lib\\site-packages\\pip\\_vendor\\rich\\__main__.py",
+      "size": 8319,
+      "lines": 273,
+      "local_imports": [],
+      "external_imports": [
+        "pip._vendor.rich.markdown",
+        "pip._vendor.rich.console",
+        "io",
+        "pip._vendor.rich.style",
+        "pip._vendor.rich.pretty",
+        "pip._vendor.rich.segment",
+        "pip._vendor.rich.measure",
+        "pip._vendor.rich",
+        "pip._vendor.rich.panel",
+        "pip._vendor.rich.color",
+        "pip._vendor.rich.syntax",
+        "pip._vendor.rich.text",
+        "time",
+        "colorsys",
+        "pip._vendor.rich.table"
+      ]
+    },
+    "views.components.autocomplete_entry": {
+      "path": "views\\components\\autocomplete_entry.py",
+      "size": 19262,
+      "lines": 616,
+      "local_imports": [],
+      "external_imports": [
+        "typing",
+        "threading",
+        "tkinter",
+        "customtkinter",
+        "enum",
+        "time",
+        "random",
+        "dataclasses"
+      ]
+    },
+    "views.components.combobox": {
+      "path": "views\\components\\combobox.py",
+      "size": 70009,
+      "lines": 1855,
+      "local_imports": [],
+      "external_imports": [
+        "typing",
+        "traceback",
+        "tkinter",
+        "customtkinter",
+        "time"
+      ]
+    },
+    "views.components.data_table": {
+      "path": "views\\components\\data_table.py",
+      "size": 20968,
+      "lines": 614,
+      "local_imports": [
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "datetime",
+        "typing",
+        "tkinter",
+        "customtkinter"
+      ]
+    },
+    "views.components.dropdown_dialogs": {
+      "path": "views\\components\\dropdown_dialogs.py",
+      "size": 54108,
+      "lines": 1558,
+      "local_imports": [
+        "core.logger",
+        "core.theme_manager",
+        "core.config_manager",
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "datetime",
+        "json",
+        "tkinter",
+        "customtkinter",
+        "webbrowser"
+      ]
+    },
+    "views.components.header": {
+      "path": "views\\components\\header.py",
+      "size": 28565,
+      "lines": 867,
+      "local_imports": [
+        "views.components.dropdown_dialogs",
+        "core.logger",
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "os",
+        "typing",
+        "weakref",
+        "datetime",
+        "tkinter",
+        "customtkinter",
+        "sys",
+        "webbrowser"
+      ]
+    },
+    "views.components.menu_bar": {
+      "path": "views\\components\\menu_bar.py",
+      "size": 11466,
+      "lines": 371,
+      "local_imports": [
+        "core.logger",
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "typing",
+        "tkinter"
+      ]
+    },
+    "views.components.quick_test": {
+      "path": "views\\components\\quick_test.py",
+      "size": 2201,
+      "lines": 84,
+      "local_imports": [],
+      "external_imports": [
+        "enhanced_searchable_combobox",
+        "customtkinter"
+      ]
+    },
+    "views.components.searchable_combobox": {
+      "path": "views\\components\\searchable_combobox.py",
+      "size": 20729,
+      "lines": 643,
+      "local_imports": [],
+      "external_imports": [
+        "typing",
+        "threading",
+        "tkinter",
+        "customtkinter",
+        "time",
+        "random"
+      ]
+    },
+    "views.components.sidebar": {
+      "path": "views\\components\\sidebar.py",
+      "size": 19652,
+      "lines": 601,
+      "local_imports": [
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "typing",
+        "customtkinter"
+      ]
+    },
+    "views.components.status_bar": {
+      "path": "views\\components\\status_bar.py",
+      "size": 20837,
+      "lines": 600,
+      "local_imports": [
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "datetime",
+        "typing",
+        "threading",
+        "customtkinter"
+      ]
+    },
+    "views.components.toolbar": {
+      "path": "views\\components\\toolbar.py",
+      "size": 18926,
+      "lines": 520,
+      "local_imports": [
+        "core.language_manager"
+      ],
+      "external_imports": [
+        "typing",
+        "customtkinter"
+      ]
+    }
+  },
+  "dependencies": {
+    "app": [
+      "core.user_manager",
+      "core.config_manager",
+      "core.airtable_manager",
+      "views.splash_screen",
+      "core.logger",
+      "controllers.app_controller",
+      "core.db_manager"
+    ],
+    "controllers.app_controller": [
+      "utils.threading_utils",
+      "core.user_manager",
+      "views.main_window",
+      "core.config_manager",
+      "core.airtable_manager",
+      "views.add_edit_window",
+      "core.theme_manager",
+      "core.logger",
+      "views.login_window",
+      "core.language_manager",
+      "core.db_manager",
+      "core.airtable_dropdown_manager"
+    ],
+    "core.airtable_dropdown_manager": [
+      "core.airtable_manager"
+    ],
+    "core.app_state_manager": [
+      "core.logger"
+    ],
+    "core.config_manager": [
+      "core.logger"
+    ],
+    "core.db_manager": [
+      "core.logger"
+    ],
+    "core.language_manager": [
+      "core.logger",
+      "core.config_manager"
+    ],
+    "core.permissions": [
+      "core.logger"
+    ],
+    "core.session_manager": [
+      "core.security.encryption",
+      "core.logger"
+    ],
+    "core.theme_color_manager": [
+      "config.modern_color_palettes",
+      "core.logger"
+    ],
+    "core.theme_manager": [
+      "core.logger",
+      "core.config_manager"
+    ],
+    "core.user_manager": [
+      "core.airtable_manager",
+      "core.db_manager",
+      "core.logger"
+    ],
+    "utils.error_handler": [
+      "utils.window_manager"
+    ],
+    "utils.threading_utils": [
+      "core.logger"
+    ],
+    "utils.validators": [
+      "core.logger"
+    ],
+    "views.add_edit_window": [
+      "core.theme_color_manager",
+      "core.logger",
+      "core.language_manager",
+      "views.components.combobox",
+      "utils.window_manager"
+    ],
+    "views.login_window": [
+      "core.constants",
+      "core.theme_color_manager",
+      "core.security.encryption",
+      "utils.validators",
+      "config.login_config",
+      "config.modern_color_palettes",
+      "core.logger",
+      "core.theme_manager",
+      "core.language_manager",
+      "core.security.rate_limiter",
+      "utils.window_manager"
+    ],
+    "views.main_window": [
+      "views.components.data_table",
+      "core.theme_color_manager",
+      "utils.window_manager",
+      "utils.image_utils",
+      "core.state_manager",
+      "core.event_system",
+      "core.permissions",
+      "views.components.status_bar",
+      "core.logger",
+      "core.theme_manager",
+      "core.language_manager",
+      "views.components.toolbar",
+      "views.components.menu_bar",
+      "views.components.sidebar",
+      "utils.async_operations",
+      "views.components.header"
+    ],
+    "core.security.encryption": [
+      "core.logger"
+    ],
+    "core.security.rate_limiter": [
+      "core.logger"
+    ],
+    "core.security.two_factor_auth": [
+      "core.logger"
+    ],
+    "venv.Lib.site-packages.pip._vendor.distro.__main__": [
+      "venv.Lib.site-packages.pip._vendor.distro.distro"
+    ],
+    "views.components.data_table": [
+      "core.language_manager"
+    ],
+    "views.components.dropdown_dialogs": [
+      "core.theme_manager",
+      "core.logger",
+      "core.config_manager",
+      "core.language_manager"
+    ],
+    "views.components.header": [
+      "views.components.dropdown_dialogs",
+      "core.logger",
+      "core.language_manager"
+    ],
+    "views.components.menu_bar": [
+      "core.logger",
+      "core.language_manager"
+    ],
+    "views.components.sidebar": [
+      "core.language_manager"
+    ],
+    "views.components.status_bar": [
+      "core.language_manager"
+    ],
+    "views.components.toolbar": [
+      "core.language_manager"
+    ]
+  },
+  "reverse_dependencies": {
+    "core.user_manager": [
+      "app",
+      "controllers.app_controller"
+    ],
+    "core.config_manager": [
+      "app",
+      "views.components.dropdown_dialogs",
+      "core.theme_manager",
+      "controllers.app_controller",
+      "core.language_manager"
+    ],
+    "core.airtable_manager": [
+      "app",
+      "core.user_manager",
+      "core.airtable_dropdown_manager",
+      "controllers.app_controller"
+    ],
+    "views.splash_screen": [
+      "app"
+    ],
+    "core.logger": [
+      "utils.threading_utils",
+      "core.user_manager",
+      "core.theme_color_manager",
+      "app",
+      "core.config_manager",
+      "views.add_edit_window",
+      "core.permissions",
+      "core.security.two_factor_auth",
+      "core.language_manager",
+      "core.security.rate_limiter",
+      "core.db_manager",
+      "views.components.dropdown_dialogs",
+      "utils.validators",
+      "core.app_state_manager",
+      "views.components.header",
+      "core.security.encryption",
+      "views.components.menu_bar",
+      "controllers.app_controller",
+      "views.login_window",
+      "views.main_window",
+      "core.theme_manager",
+      "core.session_manager"
+    ],
+    "controllers.app_controller": [
+      "app"
+    ],
+    "core.db_manager": [
+      "app",
+      "core.user_manager",
+      "controllers.app_controller"
+    ],
+    "utils.threading_utils": [
+      "controllers.app_controller"
+    ],
+    "views.login_window": [
+      "controllers.app_controller"
+    ],
+    "views.main_window": [
+      "controllers.app_controller"
+    ],
+    "views.add_edit_window": [
+      "controllers.app_controller"
+    ],
+    "core.theme_manager": [
+      "views.components.dropdown_dialogs",
+      "views.main_window",
+      "controllers.app_controller",
+      "views.login_window"
+    ],
+    "core.language_manager": [
+      "views.components.data_table",
+      "views.components.dropdown_dialogs",
+      "views.main_window",
+      "views.add_edit_window",
+      "views.components.menu_bar",
+      "views.components.status_bar",
+      "controllers.app_controller",
+      "views.login_window",
+      "views.components.toolbar",
+      "views.components.sidebar",
+      "views.components.header"
+    ],
+    "core.airtable_dropdown_manager": [
+      "controllers.app_controller"
+    ],
+    "core.security.encryption": [
+      "views.login_window",
+      "core.session_manager"
+    ],
+    "config.modern_color_palettes": [
+      "core.theme_color_manager",
+      "views.login_window"
+    ],
+    "utils.window_manager": [
+      "views.add_edit_window",
+      "utils.error_handler",
+      "views.main_window",
+      "views.login_window"
+    ],
+    "core.theme_color_manager": [
+      "views.add_edit_window",
+      "views.main_window",
+      "views.login_window"
+    ],
+    "views.components.combobox": [
+      "views.add_edit_window"
+    ],
+    "core.constants": [
+      "views.login_window"
+    ],
+    "utils.validators": [
+      "views.login_window"
+    ],
+    "core.security.rate_limiter": [
+      "views.login_window"
+    ],
+    "config.login_config": [
+      "views.login_window"
+    ],
+    "views.components.data_table": [
+      "views.main_window"
+    ],
+    "views.components.header": [
+      "views.main_window"
+    ],
+    "utils.image_utils": [
+      "views.main_window"
+    ],
+    "core.state_manager": [
+      "views.main_window"
+    ],
+    "core.event_system": [
+      "views.main_window"
+    ],
+    "core.permissions": [
+      "views.main_window"
+    ],
+    "views.components.status_bar": [
+      "views.main_window"
+    ],
+    "views.components.toolbar": [
+      "views.main_window"
+    ],
+    "views.components.menu_bar": [
+      "views.main_window"
+    ],
+    "views.components.sidebar": [
+      "views.main_window"
+    ],
+    "utils.async_operations": [
+      "views.main_window"
+    ],
+    "venv.Lib.site-packages.pip._vendor.distro.distro": [
+      "venv.Lib.site-packages.pip._vendor.distro.__main__"
+    ],
+    "views.components.dropdown_dialogs": [
+      "views.components.header"
+    ]
+  },
+  "external_imports": {
+    "app": [
+      "os",
+      "warnings",
+      "traceback",
+      "tkinter",
+      "sys",
+      "faulthandler"
+    ],
+    "project_analyzer": [
+      "os",
+      "ast",
+      "re",
+      "pathlib",
+      "typing",
+      "json",
+      "collections",
+      "argparse"
+    ],
+    "config.login_config": [],
+    "config.modern_color_palettes": [],
+    "controllers.app_controller": [
+      "typing",
+      "threading",
+      "datetime",
+      "json",
+      "tkinter",
+      "customtkinter",
+      "time"
+    ],
+    "core.airtable_dropdown_manager": [
+      "os",
+      "typing",
+      "threading",
+      "datetime",
+      "json",
+      "logging",
+      "time",
+      "concurrent.futures"
+    ],
+    "core.airtable_manager": [
+      "os",
+      "re",
+      "typing",
+      "threading",
+      "datetime",
+      "json",
+      "requests",
+      "logging",
+      "time",
+      "concurrent.futures"
+    ],
+    "core.app_state_manager": [
+      "typing",
+      "threading",
+      "datetime",
+      "enum",
+      "time"
+    ],
+    "core.config_manager": [
+      "os",
+      "dotenv",
+      "typing",
+      "yaml"
+    ],
+    "core.constants": [
+      "typing",
+      "enum"
+    ],
+    "core.db_manager": [
+      "sqlite3",
+      "typing",
+      "threading"
+    ],
+    "core.event_system": [
+      "queue",
+      "typing",
+      "threading",
+      "datetime"
+    ],
+    "core.language_manager": [
+      "os",
+      "typing",
+      "yaml"
+    ],
+    "core.logger": [
+      "os",
+      "logging",
+      "logging.handlers"
+    ],
+    "core.permissions": [
+      "typing",
+      "tkinter",
+      "functools"
+    ],
+    "core.session_manager": [
+      "os",
+      "typing",
+      "threading",
+      "datetime",
+      "secrets",
+      "json",
+      "time"
+    ],
+    "core.state_manager": [
+      "dataclasses",
+      "typing",
+      "threading",
+      "datetime"
+    ],
+    "core.theme_color_manager": [
+      "typing",
+      "customtkinter"
+    ],
+    "core.theme_manager": [
+      "os",
+      "typing",
+      "json",
+      "tkinter",
+      "customtkinter"
+    ],
+    "core.user_manager": [
+      "hmac",
+      "base64",
+      "typing",
+      "secrets",
+      "datetime",
+      "hashlib"
+    ],
+    "utils.async_operations": [
+      "threading",
+      "concurrent.futures"
+    ],
+    "utils.error_handler": [
+      "typing",
+      "logging",
+      "traceback",
+      "tkinter",
+      "functools"
+    ],
+    "utils.image_utils": [
+      "os",
+      "PIL",
+      "typing",
+      "logging",
+      "tkinter",
+      "customtkinter",
+      "sys"
+    ],
+    "utils.login_visual_effects": [
+      "typing",
+      "threading",
+      "math",
+      "customtkinter",
+      "time"
+    ],
+    "utils.threading_utils": [
+      "tkinter",
+      "queue",
+      "typing",
+      "threading"
+    ],
+    "utils.validators": [
+      "re",
+      "typing",
+      "datetime",
+      "string"
+    ],
+    "utils.window_manager": [
+      "ctypes",
+      "platform",
+      "weakref",
+      "typing",
+      "threading",
+      "tkinter",
+      "customtkinter",
+      "time"
+    ],
+    "views.add_edit_window": [
+      "os",
+      "typing",
+      "threading",
+      "datetime",
+      "json",
+      "tkcalendar",
+      "tkinter",
+      "customtkinter",
+      "time"
+    ],
+    "views.login_window": [
+      "os",
+      "ctypes",
+      "platform",
+      "re",
+      "typing",
+      "threading",
+      "secrets",
+      "json",
+      "datetime",
+      "string",
+      "tkinter",
+      "customtkinter",
+      "time",
+      "hashlib",
+      "queue",
+      "functools"
+    ],
+    "views.main_window": [
+      "os",
+      "platform",
+      "typing",
+      "threading",
+      "datetime",
+      "weakref",
+      "tkinter",
+      "customtkinter",
+      "functools"
+    ],
+    "views.splash_screen": [
+      "os",
+      "PIL",
+      "typing",
+      "threading",
+      "tkinter",
+      "customtkinter",
+      "time"
+    ],
+    "core.security.encryption": [
+      "os",
+      "base64",
+      "typing",
+      "secrets",
+      "json",
+      "hashlib",
+      "cryptography.fernet"
+    ],
+    "core.security.rate_limiter": [
+      "os",
+      "typing",
+      "threading",
+      "datetime",
+      "json",
+      "collections",
+      "time"
+    ],
+    "core.security.two_factor_auth": [
+      "io",
+      "pyotp",
+      "base64",
+      "typing",
+      "secrets",
+      "datetime",
+      "json",
+      "qrcode",
+      "time",
+      "hashlib"
+    ],
+    "venv.Lib.site-packages.pip.__main__": [
+      "os",
+      "pip._internal.cli.main",
+      "sys"
+    ],
+    "venv.Lib.site-packages.pip._internal.main": [
+      "typing",
+      "pip._internal.utils.entrypoints"
+    ],
+    "venv.Lib.site-packages.pip._internal.cli.main": [
+      "os",
+      "pip._internal.cli.autocompletion",
+      "pip._internal.cli.main_parser",
+      "pip._internal.exceptions",
+      "typing",
+      "pip._internal.utils",
+      "logging",
+      "warnings",
+      "sys",
+      "locale",
+      "pip._internal.commands"
+    ],
+    "venv.Lib.site-packages.pip._vendor.certifi.__main__": [
+      "pip._vendor.certifi",
+      "argparse"
+    ],
+    "venv.Lib.site-packages.pip._vendor.distro.distro": [
+      "os",
+      "re",
+      "typing",
+      "json",
+      "logging",
+      "subprocess",
+      "warnings",
+      "argparse",
+      "sys",
+      "shlex",
+      "functools"
+    ],
+    "venv.Lib.site-packages.pip._vendor.distro.__main__": [],
+    "venv.Lib.site-packages.pip._vendor.platformdirs.__main__": [
+      "__future__",
+      "pip._vendor.platformdirs"
+    ],
+    "venv.Lib.site-packages.pip._vendor.pygments.__main__": [
+      "pip._vendor.pygments.cmdline",
+      "sys"
+    ],
+    "venv.Lib.site-packages.pip._vendor.rich.__main__": [
+      "pip._vendor.rich.markdown",
+      "pip._vendor.rich.console",
+      "io",
+      "pip._vendor.rich.style",
+      "pip._vendor.rich.pretty",
+      "pip._vendor.rich.segment",
+      "pip._vendor.rich.measure",
+      "pip._vendor.rich",
+      "pip._vendor.rich.panel",
+      "pip._vendor.rich.color",
+      "pip._vendor.rich.syntax",
+      "pip._vendor.rich.text",
+      "time",
+      "colorsys",
+      "pip._vendor.rich.table"
+    ],
+    "views.components.autocomplete_entry": [
+      "typing",
+      "threading",
+      "tkinter",
+      "customtkinter",
+      "enum",
+      "time",
+      "random",
+      "dataclasses"
+    ],
+    "views.components.combobox": [
+      "typing",
+      "traceback",
+      "tkinter",
+      "customtkinter",
+      "time"
+    ],
+    "views.components.data_table": [
+      "datetime",
+      "typing",
+      "tkinter",
+      "customtkinter"
+    ],
+    "views.components.dropdown_dialogs": [
+      "os",
+      "typing",
+      "datetime",
+      "json",
+      "tkinter",
+      "customtkinter",
+      "webbrowser"
+    ],
+    "views.components.header": [
+      "os",
+      "typing",
+      "weakref",
+      "datetime",
+      "tkinter",
+      "customtkinter",
+      "sys",
+      "webbrowser"
+    ],
+    "views.components.menu_bar": [
+      "typing",
+      "tkinter"
+    ],
+    "views.components.quick_test": [
+      "enhanced_searchable_combobox",
+      "customtkinter"
+    ],
+    "views.components.searchable_combobox": [
+      "typing",
+      "threading",
+      "tkinter",
+      "customtkinter",
+      "time",
+      "random"
+    ],
+    "views.components.sidebar": [
+      "typing",
+      "customtkinter"
+    ],
+    "views.components.status_bar": [
+      "datetime",
+      "typing",
+      "threading",
+      "customtkinter"
+    ],
+    "views.components.toolbar": [
+      "typing",
+      "customtkinter"
+    ]
+  },
+  "statistics": {
+    "total_files": 54,
+    "total_lines": 25382,
+    "total_size": 915166,
+    "circular_dependencies": [],
+    "most_imported": [
+      [
+        "core.logger",
+        22
+      ],
+      [
+        "core.language_manager",
+        11
+      ],
+      [
+        "core.config_manager",
+        5
+      ],
+      [
+        "core.airtable_manager",
+        4
+      ],
+      [
+        "core.theme_manager",
+        4
+      ],
+      [
+        "utils.window_manager",
+        4
+      ],
+      [
+        "core.db_manager",
+        3
+      ],
+      [
+        "core.theme_color_manager",
+        3
+      ],
+      [
+        "core.user_manager",
+        2
+      ],
+      [
+        "core.security.encryption",
+        2
+      ]
+    ],
+    "most_importing": [
+      [
+        "views.main_window",
+        16
+      ],
+      [
+        "controllers.app_controller",
+        12
+      ],
+      [
+        "views.login_window",
+        11
+      ],
+      [
+        "app",
+        7
+      ],
+      [
+        "views.add_edit_window",
+        5
+      ],
+      [
+        "views.components.dropdown_dialogs",
+        4
+      ],
+      [
+        "core.user_manager",
+        3
+      ],
+      [
+        "views.components.header",
+        3
+      ],
+      [
+        "core.language_manager",
+        2
+      ],
+      [
+        "core.session_manager",
+        2
+      ]
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "field_groups": {
+    "Basic Information": [
+      "Customer Name",
+      "Hotel Name",
+      "Agency",
+      "Booking Nr.",
+      "Room number"
+    ],
+    "Trip Details": [
+      "trip Name",
+      "Date Trip",
+      "Option",
+      "des",
+      "Guide",
+      "Product ID",
+      "pickup time",
+      "Remarks",
+      "Add - Ons"
+    ],
+    "Passenger Info": [
+      "ADT",
+      "CHD",
+      "STD",
+      "Youth",
+      "Inf",
+      "CHD Age"
+    ],
+    "Contact Info": [
+      "Customer Phone",
+      "Customer Email",
+      "Customer Country"
+    ],
+    "Pricing Info": [
+      "Total price USD",
+      "Total price EUR",
+      "Total price GBP",
+      "Net Rate",
+      "Currency",
+      "Cost EGP",
+      "Collecting on date Trip",
+      "Management Option",
+      "Add-on"
+    ]
+  },
+  "field_type_map": {
+    "Customer Name": "text",
+    "Hotel Name": "text",
+    "Agency": "dropdown",
+    "Booking Nr.": "readonly",
+    "Room number": "text",
+    "trip Name": "dropdown",
+    "Date Trip": "date",
+    "Option": "dropdown",
+    "des": "dropdown",
+    "Guide": "dropdown",
+    "Product ID": "text",
+    "pickup time": "text",
+    "Remarks": "text",
+    "Add - Ons": "text",
+    "ADT": "number",
+    "CHD": "number",
+    "STD": "number",
+    "Youth": "number",
+    "Inf": "number",
+    "CHD Age": "text",
+    "Customer Phone": "phone",
+    "Customer Email": "email",
+    "Customer Country": "text",
+    "Total price USD": "currency",
+    "Total price EUR": "currency",
+    "Total price GBP": "currency",
+    "Net Rate": "currency",
+    "Currency": "text",
+    "Cost EGP": "currency",
+    "Collecting on date Trip": "text",
+    "Management Option": "dropdown",
+    "Add-on": "dropdown"
+  },
+  "required_fields": [
+    "Customer Name",
+    "Agency",
+    "Date Trip"
+  ],
+  "readonly_fields": [
+    "Booking Nr."
+  ],
+  "dropdown_fields": {}
+}

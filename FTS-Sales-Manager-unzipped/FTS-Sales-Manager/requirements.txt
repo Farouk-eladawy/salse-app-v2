@@ -1,0 +1,53 @@
+# Core GUI Framework
+customtkinter==5.2.2
+tkinter-tooltip==2.2.0
+tkcalendar==1.6.1
+
+# Airtable Integration
+pyairtable==3.1.1
+requests==2.31.0
+
+# Configuration & Environment
+python-dotenv==1.0.0
+PyYAML==6.0.1
+
+# Image Processing
+Pillow==11.2.1
+
+# Data Analysis & Visualization
+matplotlib==3.10.3
+seaborn==0.13.2
+pandas==2.2.3
+numpy==2.2.5
+
+# Excel & PDF Export
+openpyxl==3.1.2
+fpdf==1.7.2
+reportlab==4.4.1
+
+# Validation (اختياري)
+phonenumbers==8.13.0
+
+# System Monitoring (اختياري)
+psutil>=5.9.0
+
+# Testing
+pytest==8.0.0
+pytest-cov==6.1.1
+pytest-mock==3.14.0
+
+# Code Quality
+black==24.1.1
+flake8==7.0.0
+isort==6.0.1
+mypy==1.15.0
+
+# Documentation
+Sphinx==8.2.3
+sphinx-rtd-theme==3.0.2
+
+# Build Tools
+setuptools==80.9.0
+wheel==0.45.1
+pyinstaller==6.13.0
+pyinstaller-hooks-contrib==2025.3
